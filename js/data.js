@@ -61,13 +61,13 @@ const SITE_DATA = {
       family: "夫婦+子ども２人",
       rating: "4.7",
       tags: ["吹き抜け", "大開口", "ウッドデッキ", "自然素材", "造作収納"],
-      img: "images/room-living.svg"
+      img: "images/example-room.png"
     },
     cards: [
-      { title: "庭とつながる中庭のある平屋",            sub: "自然と家族が集まる心地よい平屋", area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/room-living.svg" },
-      { title: "高断熱で一年中快適な\nシンプルモダンの家", sub: "冬も夏も快適な省エネ設定",       area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/room-modern.svg" },
-      { title: "庭とつながる中庭のある平屋",            sub: "自然と家族が集まる心地よい平屋", area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/room-living.svg" },
-      { title: "庭とつながる中庭のある平屋",            sub: "自然と家族が集まる心地よい平屋", area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/room-modern.svg" }
+      { title: "庭とつながる中庭のある平屋",            sub: "自然と家族が集まる心地よい平屋", area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/example-room.png" },
+      { title: "高断熱で一年中快適な\nシンプルモダンの家", sub: "冬も夏も快適な省エネ設定",       area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/example-room.png" },
+      { title: "庭とつながる中庭のある平屋",            sub: "自然と家族が集まる心地よい平屋", area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/example-room.png" },
+      { title: "庭とつながる中庭のある平屋",            sub: "自然と家族が集まる心地よい平屋", area: "30.5坪", family: "夫婦+子ども２人", rating: "4.7", img: "images/example-room.png" }
     ]
   },
 
@@ -80,11 +80,11 @@ const SITE_DATA = {
       title: "理想の家を立てるために大切な\nはじめの一歩とは？",
       desc: "資金計画から土地の見つけ方まで、\n家づくりを始める前に知っておきたい\nポイントを分かりやすく解説します。",
       date: "2024-04-02",
-      img: "images/room-living.svg"
+      img: "images/column-photo.png"
     },
     items: [
-      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/room-living.svg" },
-      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/room-modern.svg" }
+      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/column-photo.png" },
+      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/column-photo.png" }
     ]
   },
 
@@ -97,11 +97,11 @@ const SITE_DATA = {
       title: "【実例12選】やっぱり買ってよかった！LDKの平屋ルームツアー",
       desc: "LDKを中心に、暮らしやすさの\n工夫が詰まった平屋をご紹介します",
       date: "2024-04-02",
-      img: "images/house-exterior.svg"
+      img: "images/youtube-photo.png"
     },
     items: [
-      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/room-living.svg" },
-      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/room-modern.svg" }
+      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/column-photo.png" },
+      { title: "【実例10選】収納アイデアが光る家づくりの工夫", date: "2024-04-02", img: "images/column-photo.png" }
     ]
   },
 
