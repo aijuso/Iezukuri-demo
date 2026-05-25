@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="mwall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eceae6"/><stop offset="1" stop-color="#d9d6cf"/></linearGradient>
+    <linearGradient id="mfloor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cdbfa6"/><stop offset="1" stop-color="#b6a584"/></linearGradient>
+    <linearGradient id="mglass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0e6"/><stop offset="1" stop-color="#a8c2b0"/></linearGradient>
+  </defs>
+  <rect width="800" height="460" fill="url(#mwall)"/>
+  <rect width="800" height="64" fill="#c9c4ba"/>
+  <rect y="330" width="800" height="130" fill="url(#mfloor)"/>
+  <g stroke="#9c8f74" stroke-width="2" opacity="0.45"><line x1="0" y1="370" x2="800" y2="370"/><line x1="0" y1="412" x2="800" y2="412"/></g>
+  <rect x="330" y="74" width="400" height="276" fill="url(#mglass)"/>
+  <g fill="#8bb583"><circle cx="420" cy="250" r="40"/><circle cx="480" cy="240" r="34"/></g>
+  <g stroke="#efece6" stroke-width="9"><line x1="530" y1="74" x2="530" y2="350"/><line x1="330" y1="190" x2="730" y2="190"/></g>
+  <rect x="330" y="74" width="400" height="276" fill="none" stroke="#6d6657" stroke-width="9"/>
+  <line x1="280" y1="0" x2="280" y2="86" stroke="#5b5547" stroke-width="3"/>
+  <path d="M264 86 h32 l-7 24 h-18Z" fill="#efe9da" stroke="#b7ad95" stroke-width="2"/>
+  <!-- low sofa -->
+  <rect x="60" y="300" width="240" height="60" rx="14" fill="#b9b09b"/>
+  <rect x="60" y="284" width="240" height="34" rx="12" fill="#cabfa6"/>
+  <rect x="84" y="288" width="60" height="30" rx="8" fill="#a99f87"/>
+  <!-- table -->
+  <rect x="120" y="372" width="160" height="20" rx="6" fill="#8f8569"/>
+  <!-- plant -->
+  <rect x="660" y="348" width="44" height="40" rx="6" fill="#c8b894"/>
+  <g fill="#6fa05f"><ellipse cx="670" cy="318" rx="15" ry="32"/><ellipse cx="694" cy="318" rx="15" ry="32"/></g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 92" fill="none">
+  <!-- pine tree -->
+  <g stroke="#549032" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M16 60 L24 44 L32 60 Z"/>
+    <path d="M14 70 L24 50 L34 70 Z"/>
+    <line x1="24" y1="70" x2="24" y2="78"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#fc7201">
+    <path d="M44 12 q1.6 4 5.6 5.6 q-4 1.6-5.6 5.6 q-1.6-4-5.6-5.6 q4-1.6 5.6-5.6Z"/>
+    <circle cx="98" cy="18" r="2.4"/>
+  </g>
+  <g fill="#f6b24a">
+    <path d="M88 8 q1.2 3 4.2 4.2 q-3 1.2-4.2 4.2 q-1.2-3-4.2-4.2 q3-1.2 4.2-4.2Z"/>
+  </g>
+  <!-- house -->
+  <g stroke="#422700" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M40 60 L40 40 L66 22 L92 40 L92 60"/>
+    <path d="M30 44 L66 20 L102 44" stroke="#549032"/>
+    <rect x="58" y="46" width="16" height="14" rx="1.5"/>
+    <path d="M82 30 L82 38" />
+  </g>
+  <!-- ground line -->
+  <line x1="34" y1="60" x2="100" y2="60" stroke="#fc7201" stroke-width="3.4" stroke-linecap="round"/>
+</svg>
