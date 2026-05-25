@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 16 12.5" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<line id="Line 2" x1="0.8" y1="-0.8" x2="7.18453" y2="-0.8" transform="matrix(0.623231 0.782038 -0.630283 0.776366 2.99996 6.25579)" stroke="var(--stroke-0, #422700)" stroke-width="1.6" stroke-linecap="round"/>
+<line id="Line 1" x1="0.8" y1="-0.8" x2="7.1708" y2="-0.8" transform="matrix(0.630283 -0.776366 0.623231 0.782038 7.97618 12.5)" stroke="var(--stroke-0, #422700)" stroke-width="1.6" stroke-linecap="round"/>
+</g>
+</svg>

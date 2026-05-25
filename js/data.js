@@ -24,7 +24,7 @@ const SITE_DATA = {
       { text: "を。", accent: false }
     ],
     sub: "実例から学べる、家づくりの判断支援メディア。",
-    primaryButton: "",
+    primaryButton: "はじめての方へ（家づくりガイド）",
     secondaryButton: "理想の事例を探す",
     floatingCards: [
       { label: "間取り",   icon: "madori" },

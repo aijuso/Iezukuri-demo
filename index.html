@@ -2,82 +2,28 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1600">
   <meta name="description" content="家づくりラボ — 実例から学べる、家づくりの判断支援メディア。">
   <title>家づくりラボ｜実例から学べる家づくりの判断支援メディア</title>
   <link rel="icon" href="images/logo-header.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- ===== Header ===== -->
-  <header class="header" id="header">
-    <div class="container header__inner">
-      <a class="logo" href="#top" aria-label="家づくりラボ">
-        <img class="logo__img" src="images/logo-header.png" alt="家づくりラボ">
-      </a>
+  <div id="stage">
+    <!-- 背景レイヤー (Figma: 2176:2173) -->
+    <div class="bg-layer" aria-hidden="true" data-bg></div>
 
-      <nav class="nav" id="nav" aria-label="グローバルナビ">
-        <ul class="nav__list" data-nav></ul>
-      </nav>
-
-      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <main id="top">
-    <!-- ===== Hero ===== -->
-    <section class="hero" id="hero">
-      <div class="hero__bg" aria-hidden="true"></div>
-      <div class="container hero__inner">
-        <div class="hero__copy" data-hero-copy></div>
-        <div class="hero__visual" data-hero-visual></div>
-      </div>
-      <div class="hero__wave" aria-hidden="true"></div>
-    </section>
-
-    <!-- ===== 悩みから探す ===== -->
-    <section class="nayami" id="nayami">
-      <div class="container nayami__inner">
-        <div class="nayami__head" data-nayami-head></div>
-        <div class="nayami__grid" data-nayami-grid></div>
-      </div>
-    </section>
-
-    <!-- ===== 注目の実例 ===== -->
-    <section class="examples" id="examples">
-      <div class="container">
-        <div class="section-head" data-examples-head></div>
-        <div class="examples__panel">
-          <div class="examples__featured" data-examples-featured></div>
-          <div class="carousel">
-            <button class="carousel__arrow carousel__arrow--prev" aria-label="前へ">&#10094;</button>
-            <div class="carousel__viewport">
-              <div class="carousel__track" data-examples-cards></div>
-            </div>
-            <button class="carousel__arrow carousel__arrow--next" aria-label="次へ">&#10095;</button>
-          </div>
-          <div class="carousel__dots" data-examples-dots></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== コラム & YouTube ===== -->
-    <section class="media" id="column">
-      <div class="container media__inner">
-        <div class="media__col" data-column></div>
-        <div class="media__col" id="youtube" data-youtube></div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ===== Footer ===== -->
-  <footer class="footer">
-    <div class="footer__scene" aria-hidden="true"></div>
-    <div class="container footer__inner" data-footer></div>
-    <p class="footer__copy" data-footer-copy></p>
-  </footer>
+    <!-- コンテンツレイヤー -->
+    <header class="hdr" data-header></header>
+    <section class="hero" data-hero></section>
+    <section class="nayami" data-nayami></section>
+    <section class="examples" data-examples></section>
+    <section class="media" data-media></section>
+    <footer class="footer" data-footer></footer>
+  </div>
 
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
