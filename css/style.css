@@ -108,10 +108,10 @@ h1,h2,h3,h4,p { margin:0; font-weight:inherit; }
 .ncard--1 .ncard__no { background:var(--green); }
 .ncard--2 .ncard__no { background:var(--teal); }
 .ncard--3 .ncard__no { background:var(--orange2); }
-.ncard__illust { position:absolute; left:50%; top:-27.82px; transform:translateX(-50%); width:265px; height:265px; }
+.ncard__illust { position:absolute; left:50%; top:-25px; transform:translateX(-50%); width:265px; height:265px; }
 .ncard__illust img { width:265px; height:265px; object-fit:contain; }
-.ncard__main { position:absolute; left:0; top:213px; width:100%; text-align:center; font-weight:700; font-size:29.18px; color:var(--brown); letter-spacing:.58px; }
-.ncard__sub { position:absolute; left:0; top:262px; width:100%; text-align:center; font-family:var(--font); font-weight:500; font-size:20.43px; line-height:1.05; color:var(--gray); }
+.ncard__main { position:absolute; left:0; top:195px; width:100%; text-align:center; font-weight:700; font-size:29.18px; color:var(--brown); letter-spacing:.58px; }
+.ncard__sub { position:absolute; left:0; top:244px; width:100%; text-align:center; font-family:var(--font); font-weight:500; font-size:20.43px; line-height:1.05; color:var(--gray); }
 .ncard__go { position:absolute; left:364px; top:244px; width:49.34px; height:49.34px; }
 
 /* ============================================================
@@ -149,8 +149,8 @@ h1,h2,h3,h4,p { margin:0; font-weight:inherit; }
 
 /* 下実例 4枚 */
 .excards { width:1300px; display:flex; gap:23.91px; justify-content:center; }
-.excard { width:307px; background:#fff; border:1.913px solid var(--tan); border-radius:14.35px; overflow:hidden; }
-.excard__photo { height:178.85px; padding:5.74px 7.65px; }
+.excard { width:307px; background:#fff; border:1.913px solid var(--tan); border-radius:14.35px; overflow:hidden; display:flex; flex-direction:column; gap:12.43px; }
+.excard__photo { height:178.85px; padding:5.74px 7.65px; flex:none; }
 .excard__photo img { width:100%; height:100%; object-fit:cover; border-radius:8px; }
 .excard__body { position:relative; padding:0 16.26px 12px; }
 .excard__title { font-weight:700; font-size:17.22px; line-height:1; letter-spacing:.69px; color:var(--brown); min-height:34px; margin-bottom:12px; }
